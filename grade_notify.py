@@ -52,8 +52,6 @@ for i, entry in enumerate(all_entries):
     if i != 0 and (i + 1) % 14 == 0:
         course_grades.append(row)
         row = []
-# print(course_grades, end='\n\n')
-# course_grades = [['WESTERN CLASSICAL MUSIC', '98'], ['AUTOMATIC CONTROL', '999'], ['EXPERIMENTS IN ELECTRONICS', '97'], ['COMBUSTION', '999'], ['FLUID MECHANICS', '94'], ['SOLAR THERMAL ENERGY', '92'], ['CONDUCT (1)', '85'], ['EXPERIMENT ON DIGITAL SYSTEM', '999'], ['WIRELESS COMMUNICATIONS AND MOBILE NETWORKS', '999']]
 
 
 # read saved grades.csv which contains [Course, Grades] pairs
@@ -70,8 +68,6 @@ for i, old_grade in enumerate(old_course_grades):
     if course_grades[i] != old_grade:
         need_update = True
         need_update_idx.append(i)
-# print(need_update)
-# print(need_update_idx)
 
 
 # write new grades into grades.csv if new grades were posted
