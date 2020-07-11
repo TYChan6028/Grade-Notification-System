@@ -1,2 +1,2 @@
 # Grade-Notification-System
-Periodically checks the NCKU grade system and notifies the user if new grades were posted via email.
+Periodically checks the NCKU grade system for newly announced semester grades. If new grades were posted, notify the user via email.
